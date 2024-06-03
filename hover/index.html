@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSAP Hover Animation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+</style>
+<body>
+
+
+<div class="box" id="box"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Hover Animation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .card {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0;
+}
+
+</style>
+<body>
+
+<div class="card" id="card">
+  <div class="card-content">
+    <h2>Card Title</h2>
+    <p>This is a sample card.</p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
